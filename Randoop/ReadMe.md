@@ -21,4 +21,4 @@ mvn test
 
 The above test suite will pass. Let's inject a fault
 
-Change line 50 of `Board.java` from `currentPlayer = Player.O` to `currentPlayer = Player.X` and re-run the test suite. You should see some tests fail now.
+Change line 124 of `Board.java` from `return winner` to `return currentPlayer` and re-run the test suite. You should see some tests fail now.
